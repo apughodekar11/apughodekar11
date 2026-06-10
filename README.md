@@ -5,7 +5,7 @@
 Cloud and SRE engineer in Dublin. I keep production systems up, automate the boring parts, and make services observable.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-apurva.ie-009688?style=for-the-badge&logo=firefox&logoColor=white)](https://apurva.ie)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/apurva-ghodekar-b26102198/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:apurva80125@gmail.com)
 
 </div>
