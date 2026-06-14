@@ -16,9 +16,10 @@ Cloud and SRE engineer in Dublin. I keep production systems up, automate the bor
 
 DevOps and SRE focused engineer with around two years running production systems on AWS at 99.99% uptime for a Swiss IoT SaaS platform. I build CI/CD pipelines, automate infrastructure with Terraform and Ansible, and instrument services with SLOs and burn-rate alerting. MSc in Cloud Computing.
 
-- 🔭 Currently building SRE tooling and AI-driven anomaly detection wired into deployment pipelines
+- 🔭 Building SRE and observability tooling — SLOs, burn-rate alerting, and chaos testing wired into deployment pipelines
+- ⚡ Recently completed the Microsoft AI Skills Fest, driving the full Azure DevOps surface (Boards, PRs, Pipelines) through the Azure DevOps MCP server and Copilot
 - 🎓 MSc Cloud Computing, National College of Ireland
-- 📜 Azure Administrator (AZ-104), Azure Fundamentals (AZ-900), AZ-400 in progress
+- 📜 Azure Administrator (AZ-104), Azure Fundamentals (AZ-900), Microsoft 365 Fundamentals (MS-900).
 
 ---
 
@@ -41,17 +42,17 @@ DevOps and SRE focused engineer with around two years running production systems
 ![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat&logo=azuredevops&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white)
 
-**Observability**
-![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat&logo=dynatrace&logoColor=white)
+**Observability & SRE**
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat&logo=datadog&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
+![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat&logo=dynatrace&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat&logo=datadog&logoColor=white)
 
 **Languages & Data**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
@@ -61,10 +62,10 @@ DevOps and SRE focused engineer with around two years running production systems
 
 | Project | What it is | Built with |
 | :-- | :-- | :-- |
-| **[Payment Authorization Platform](https://github.com/apughodekar11/payment-auth-platform)** | Real-time payment auth API with full SRE tooling: auto-rollback pipeline, SLOs, burn-rate alerts, and a linked runbook. | FastAPI · AWS EKS · Terraform · Jenkins · Ansible · Dynatrace |
+| **[Payment Authorization Platform](https://github.com/apughodekar11/payment-auth-platform)** | Real-time payment auth API with full SRE tooling: canary pipeline with proven auto-rollback, SLOs, burn-rate alerts, and a linked runbook. | FastAPI · AWS EKS · Terraform · Jenkins · Ansible · OpenTelemetry · Dynatrace |
+| **[Reliability Lab](https://github.com/apughodekar11/datadog-reliability-lab)** | URL-shortener SaaS instrumented end to end with Datadog: APM with distributed traces across a Redis queue, two SLOs with fast/slow burn-rate alerts, synthetics, and a chaos layer that injects failures so the budgets actually move. | FastAPI · Datadog · Terraform · AWS EC2 · GitHub Actions · Redis · Postgres |
+| **[gRPC Stream Load Balancer](https://github.com/apughodekar11/grpc-stream-lb)** | Application-level gRPC load balancer — per-stream affinity, health-based ejection, graceful draining, and transparent mid-stream failover. Built for the Microsoft AI Skills Fest, driving the full Azure DevOps surface through the ADO MCP server and Copilot. | Python · gRPC · Azure DevOps · Azure Pipelines · ACR · pytest |
 | **[Cloud Migration Assurance Framework](https://github.com/apughodekar11/AI-assisted-cloud-migration-assurance-framework)** | MSc research. A CI/CD gate that validates a cloud migration with policy checks and AI anomaly detection before it ships. | FastAPI · AWS Lambda · Terraform · OPA/Rego · TensorFlow |
-| **[Three-Tier Web App](https://github.com/apughodekar11/three-tier-webapp)** | A three-tier application deployment. | Infrastructure |
-| **[Azure App Service](https://github.com/apughodekar11/azure-App_Service)** | App Service deployment work on Azure. | Python · Azure |
 
 ---
 
